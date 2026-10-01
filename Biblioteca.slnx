@@ -5,5 +5,5 @@
   <Project Path="Biblioteca.Datos/Biblioteca.Datos.csproj" />
   <Project Path="Biblioteca.Entidades/Biblioteca.Entidades.csproj" />
   <Project Path="Biblioteca.Negocio/Biblioteca.Negocio.csproj" />
-  <Project Path="WpfApp1/Biblioteca.WPF.csproj" />
+  <Project Path="Biblioteca.WPF/Biblioteca.WPF.csproj" />
 </Solution>
