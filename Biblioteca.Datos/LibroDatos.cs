@@ -1,9 +1,10 @@
 ﻿using Biblioteca.Entidades;
 using Microsoft.Data.SqlClient;
+using Biblioteca.Datos.Interfaces;
 
 namespace Biblioteca.Datos;
 
-public class LibroDatos
+public class LibroDatos : ILibroRepositorio
 {
     private const string SelectBase = @"
         SELECT l.LibroId, l.Titulo, l.ISBN, l.AutorId, a.Nombre AS AutorNombre, l.Ejemplares, l.Activo
